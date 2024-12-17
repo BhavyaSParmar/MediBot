@@ -1,13 +1,15 @@
 Medibot
 An AI-Powered Health and Wellness Tutor Bot
 
-##
 Medibot is an interactive, AI-driven chatbot designed to offer personalized advice on fitness, nutrition, mental well-being, and overall wellness. Built using Streamlit and powered by the OpenAI GPT-4o-mini model, it delivers actionable health-related insights.
-##
+
 🚀 Features
 🔹 Interactive Q&A: Ask questions on health, fitness, nutrition, and mental wellness.
+
 🔹 AI-Powered Responses: Uses OpenAI's GPT-4o-mini model for precise, reliable advice.
+
 🔹 Domain-Focused Guidance:
+
 🥗 Nutrition: Balanced diet tips, hydration, and eating habits.
 🏋️ Exercise: Workouts, yoga routines, and fitness suggestions.
 🧘 Mental Wellness: Meditation, stress management, and mindfulness techniques.
@@ -83,12 +85,10 @@ Medibot Response:
 
 📈 Future Enhancements
 ✅ Integration with nutrition and fitness APIs for real-time suggestions.
+
 ✅ User authentication to save and track personal progress.
+
 ✅ Data visualization for user health goals and milestones.
-📸 Screenshots
-Welcome Screen	Response Example
-🛡 License
-This project is licensed under the MIT License.
 
 👤 Author
 Bhavya Parmar
@@ -104,4 +104,3 @@ Fork this repository.
 Make your changes.
 Open a Pull Request.
 🌟 Star this repository if you find it useful!
-This structure ensures a clean, visually appealing GitHub README file with appropriate headings, tables, code blocks, and formatting. Replace placeholders like your-username and image paths (path-to-welcome.png) with actual values.
