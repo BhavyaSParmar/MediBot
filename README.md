@@ -81,7 +81,7 @@ pip install poetry<br>
 Start the Streamlit application:<br>
 bash<br>
 Copy code<br>
-poetry run streamlit run medibot.py<br>
+poetry run streamlit run medibot.py<br><br>
 💡 How to Use Medibot<br>
 Launch the app using the steps above.<br>
 Enter any health or wellness-related question in the input box.<br>
