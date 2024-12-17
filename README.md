@@ -1,4 +1,4 @@
-Medibot
+Medibot <br>
 🌟 Your Personal Health & Wellness AI Tutor
 Medibot is an AI-powered chatbot that provides actionable advice on health, fitness, nutrition, and mental well-being. Powered by OpenAI GPT-4o-mini and built with Streamlit, Medibot delivers personalized wellness insights at your fingertips.
 ##
@@ -56,68 +56,67 @@ medibot/
 Follow these steps to run Medibot on your local machine:
 
 1️⃣ Clone the Repository
-bash
-Copy code
-git clone https://github.com/your-username/medibot.git
-cd medibot
+bash <br>
+Copy code <br>
+git clone https://github.com/your-username/medibot.git<br>
+cd medibot<br>
 <br>
-2️⃣ Set Up Environment Variables
+2️⃣ Set Up Environment Variables<br>
 Create a .env file in the root directory and add your OpenAI API key:
-
-env
-Copy code
-OPENAI_API_KEY=your_openai_api_key
+env<br>
+Copy code<br>
+OPENAI_API_KEY=your_openai_api_key<br>
 <br>
 3️⃣ Install Dependencies
-Use Poetry to install the required libraries:
+Use Poetry to install the required libraries:<br>
 
-bash
-Copy code
-poetry install
-If you don't have Poetry installed, run:
+bash<br>
+Copy code<br>
+poetry install<br>
+If you don't have Poetry installed, run:<br>
 
-bash
-Copy code
-pip install poetry
+bash<br>
+Copy code<br>
+pip install poetry<br>
 <br>
 4️⃣ Run the Application
-Start the Streamlit application:
+Start the Streamlit application:<br>
 
-bash
-Copy code
-poetry run streamlit run medibot.py
+bash<br>
+Copy code<br>
+poetry run streamlit run medibot.py<br>
 💡 How to Use Medibot
-Launch the app using the steps above.
-Enter any health or wellness-related question in the input box.
-Click on "Get Response".
-Medibot will provide a detailed, AI-generated response tailored to your query.
+Launch the app using the steps above.<br>
+Enter any health or wellness-related question in the input box.<br>
+Click on "Get Response".<br>
+Medibot will provide a detailed, AI-generated response tailored to your query.<br>
 ##
-📝 Example
-User Input:
-"What are the benefits of meditation?"
+📝 Example<br>
+User Input:<br>
+"What are the benefits of meditation?"<br>
 
-Medibot Response:
-"Meditation helps reduce stress, improve concentration, and promote emotional well-being by calming the mind and encouraging mindfulness."
+Medibot Response:<br>
+"Meditation helps reduce stress, improve concentration, and promote emotional well-being by calming the mind and encouraging mindfulness."<br>
 ##
 Example Response
 
-🔮 Future Enhancements
-✅ Integration with nutrition and fitness APIs for real-time data.
-✅ User authentication for personalized advice tracking.
-✅ Visualizations for progress and health goals.
-✅ Enhanced AI features for improved responses.
+🔮 Future Enhancements<br>
+✅ Integration with nutrition and fitness APIs for real-time data.<br>
+✅ User authentication for personalized advice tracking.<br>
+✅ Visualizations for progress and health goals.<br>
+✅ Enhanced AI features for improved responses.<br>
 ##
-📌 Connect with Me:
+📌 Connect with Me:<br>
 
-GitHub
-LinkedIn
-🤝 Contributing
-Contributions are always welcome!
+GitHub<br>
+LinkedIn<br>
+🤝 Contributing<br>
+Contributions are always welcome!<br>
 
-Fork the repository.
-Create a new branch: git checkout -b feature/YourFeatureName.
-Make your changes and commit: git commit -m "Add some feature".
+Fork the repository.<br>
+Create a new branch: git checkout -b feature/YourFeatureName.<br>
+Make your changes and commit: git commit -m "Add some feature".<<br>br>
 Push the changes: git push origin feature/YourFeatureName.
-Submit a pull request.
-⭐ Support
+Submit a pull request.<br>
+⭐ Support<br>
 If you find this project helpful, don't forget to ⭐ star the repository!
