@@ -1,83 +1,93 @@
-# MediBot
-Medibot is an interactive, AI-driven chatbot that serves as a health and wellness tutor. Built with Streamlit and integrated with the OpenAI GPT-4o model, Medibot provides personalized advice on topics such as fitness, nutrition, and mental well-being. Below is a detailed breakdown of the project's components and technology stack:
+Medibot
+An AI-Powered Health and Wellness Tutor Bot
+Medibot is an interactive, AI-driven chatbot that serves as a health and wellness tutor. Built with Streamlit and powered by OpenAI GPT-4o, it provides personalized advice on fitness, nutrition, mental well-being, and overall wellness.
 
-Core Functionalities:
-User Interaction:
+Features
+Interactive Q&A: Users can ask questions about health, fitness, and mental wellness.
+AI-Generated Responses: Leveraging OpenAI's GPT-4o-mini for highly accurate and human-like responses.
+Focused Health Domain: System instructions ensure Medibot delivers actionable advice related to:
+Nutrition: Balanced diets, hydration, and healthy eating.
+Exercise: Workouts, yoga, and personalized fitness tips.
+Mental Wellness: Stress management, meditation, mindfulness.
+Sleep Improvement: Practical tips to improve sleep quality.
+Preventive Care: Education on healthy habits and wellness practices.
+Technologies Used
+Technology	Purpose
+Streamlit	UI framework for building interactive apps.
+OpenAI API	Provides responses using GPT-4o-mini.
+Python-dotenv	Loads environment variables securely.
+Poetry	Dependency management and packaging.
+Python (3.12+)	Core programming language.
+Project Structure
+plaintext
+Copy code
+medibot/
+│
+├── medibot.py           # Main chatbot application logic
+├── app.py               # Navigation setup for multi-page app
+├── .env                 # Environment variables (e.g., API key)
+├── pyproject.toml       # Project dependencies and configuration
+├── README.md            # Project documentation
+└── poetry.lock          # Poetry lock file for dependency management
+How It Works
+User Input:
+Users input their health-related questions into the Streamlit interface.
 
-Users can input health, fitness, and wellness-related questions into the Streamlit interface.
-Upon submission, Medibot provides concise, GPT-powered responses tailored to practical advice.
-AI Integration:
-
-The chatbot leverages OpenAI's GPT-4o-mini model for generating human-like and contextually relevant answers.
-A system prompt ensures Medibot stays focused on providing actionable and health-focused information.
-Practical Advice Areas:
-
-Nutrition tips (e.g., balanced diets, hydration).
-Exercise guidance (e.g., workouts, yoga).
-Mental health advice (e.g., mindfulness, meditation, stress management).
-Sleep improvement suggestions.
-Preventive care and wellness education.
-Technologies Used:
-Streamlit (UI Framework):
-
-Provides a simple and clean user interface for interacting with the Medibot.
-Users can input queries, click buttons to trigger responses, and see answers instantly.
-Streamlit Pages allows navigation within the app (handled via app.py).
-OpenAI GPT API:
-
-Medibot communicates with the OpenAI API via the openai library to fetch responses.
-The GPT-4o-mini model is specifically used for optimized performance and enhanced responses.
-Environment variables securely store the API key in a .env file.
-Python-Dotenv:
-
-Used to load sensitive environment variables such as the OPENAI_API_KEY securely.
-Poetry (Dependency Management):
-
-The project dependencies (e.g., openai, streamlit, python-dotenv) are managed through Poetry.
-The pyproject.toml file includes clear definitions of all required packages.
-Session State:
-
-Handled in app.py for managing page navigation within the Streamlit application.
-File Structure Overview:
-medibot.py:
-
-The main application logic for the chatbot.
-Handles user input, API communication, and response display.
-Includes health-related system instructions for GPT to maintain domain relevance.
-app.py:
-
-Handles multi-page navigation and session management.
-Provides structure for integrating the Medibot into a broader app environment.
-.env:
-
-Stores the OpenAI API key securely.
-Prevents hardcoding sensitive information into the script.
-pyproject.toml:
-
-Defines project dependencies and metadata.
-Ensures a clean and reproducible environment for the project.
-README.md:
-
-Provides a brief overview of the Medibot project and its purpose.
-How It Works:
-User Experience:
-
-The user opens the Streamlit app and sees a clean, welcoming interface.
-Inputs a health-related question (e.g., "How can I improve my sleep?").
-Clicks "Get Response" to fetch advice.
 Backend Processing:
 
-The input is sent to the OpenAI GPT API with Medibot's system instructions.
-GPT-4o processes the query and generates a relevant response.
-Output Display:
+The input is sent to OpenAI's GPT-4o-mini model via API.
+System instructions ensure responses are focused on practical health advice.
+AI Response:
+Medibot generates a relevant, human-like response tailored to the user's query.
 
-The generated advice is displayed in the Streamlit app for the user.
-Example Use Case:
-User Input: "What are the benefits of meditation?"
-Medibot Response: "Meditation reduces stress, enhances focus, and promotes emotional well-being by calming the mind and improving overall mental health."
-Target Audience:
-Individuals seeking practical and reliable health advice.
-Users interested in wellness topics such as diet, fitness, and mental health.
-Those looking for instant, AI-powered guidance in a user-friendly format.
-Conclusion:
-Medibot combines modern AI technology with an intuitive user interface to provide users with accessible and actionable health advice. This project leverages the strengths of OpenAI GPT-4o, Streamlit, and Poetry, creating a scalable, efficient, and interactive wellness tool.
+Display:
+The response is displayed on the Streamlit UI for the user.
+
+Setup Instructions
+1. Clone the Repository
+bash
+Copy code
+git clone https://github.com/your-username/medibot.git
+cd medibot
+2. Set Up Environment
+Create a .env file in the project directory.
+Add your OpenAI API key:
+env
+Copy code
+OPENAI_API_KEY=your_openai_api_key
+3. Install Dependencies
+Use Poetry for dependency management:
+
+bash
+Copy code
+poetry install
+If Poetry is not installed, install it with:
+
+bash
+Copy code
+pip install poetry
+4. Run the App
+Launch the Streamlit application:
+
+bash
+Copy code
+poetry run streamlit run medibot.py
+Example Use Case
+Input:
+"What are the benefits of meditation?"
+
+Output:
+"Meditation reduces stress, enhances focus, and promotes emotional well-being by calming the mind and improving overall mental health."
+
+Future Enhancements
+Integration with fitness and nutrition APIs for real-time suggestions.
+User authentication for personalized health tracking.
+Enhanced visualizations for wellness progress.
+License
+This project is licensed under the MIT License.
+
+Author
+Bhavya Parmar
+
+For inquiries, feel free to connect with me on GitHub or LinkedIn.
+
