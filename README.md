@@ -105,7 +105,6 @@ Example Response
 ##
 🤝 Contributing<br>
 Contributions are always welcome!<br>
-
 Fork the repository.<br>
 Create a new branch: git checkout -b feature/YourFeatureName.<br>
 Make your changes and commit: git commit -m "Add some feature".<br>
