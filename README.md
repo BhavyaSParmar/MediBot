@@ -39,12 +39,17 @@ Python 3.12+	Core programming language.
 plaintext
 Copy code
 medibot/
-│
+│<br>
 ├── medibot.py           # Main chatbot logic and Streamlit app
+<br>
 ├── app.py               # Navigation setup for multi-page app
+<br>
 ├── .env                 # Environment variables (API key)
+<br>
 ├── pyproject.toml       # Poetry dependencies and configuration
+<br>
 ├── README.md            # Project documentation
+<br>
 └── poetry.lock          # Lock file for dependency management
 ##
 ⚙️ Setup Instructions
