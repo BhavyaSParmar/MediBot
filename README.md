@@ -69,23 +69,20 @@ OPENAI_API_KEY=your_openai_api_key<br>
 <br>
 3️⃣ Install Dependencies
 Use Poetry to install the required libraries:<br>
-
 bash<br>
 Copy code<br>
 poetry install<br>
 If you don't have Poetry installed, run:<br>
-
 bash<br>
 Copy code<br>
 pip install poetry<br>
 <br>
 4️⃣ Run the Application
 Start the Streamlit application:<br>
-
 bash<br>
 Copy code<br>
 poetry run streamlit run medibot.py<br>
-💡 How to Use Medibot
+💡 How to Use Medibot<br>
 Launch the app using the steps above.<br>
 Enter any health or wellness-related question in the input box.<br>
 Click on "Get Response".<br>
@@ -106,10 +103,6 @@ Example Response
 ✅ Visualizations for progress and health goals.<br>
 ✅ Enhanced AI features for improved responses.<br>
 ##
-📌 Connect with Me:<br>
-
-GitHub<br>
-LinkedIn<br>
 🤝 Contributing<br>
 Contributions are always welcome!<br>
 
