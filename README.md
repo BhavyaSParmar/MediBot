@@ -110,6 +110,6 @@ Fork the repository.<br>
 Create a new branch: git checkout -b feature/YourFeatureName.<br>
 Make your changes and commit: git commit -m "Add some feature".<br>
 Push the changes: git push origin feature/YourFeatureName.
-Submit a pull request.<br>
+Submit a pull request.<br><br>
 ⭐ Support<br>
 If you find this project helpful, don't forget to ⭐ star the repository!
