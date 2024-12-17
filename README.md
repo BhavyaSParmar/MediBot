@@ -60,12 +60,14 @@ bash
 Copy code
 git clone https://github.com/your-username/medibot.git
 cd medibot
+<br>
 2️⃣ Set Up Environment Variables
 Create a .env file in the root directory and add your OpenAI API key:
 
 env
 Copy code
 OPENAI_API_KEY=your_openai_api_key
+<br>
 3️⃣ Install Dependencies
 Use Poetry to install the required libraries:
 
@@ -77,6 +79,7 @@ If you don't have Poetry installed, run:
 bash
 Copy code
 pip install poetry
+<br>
 4️⃣ Run the Application
 Start the Streamlit application:
 
